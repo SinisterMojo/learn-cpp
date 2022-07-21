@@ -1,0 +1,178 @@
+#include <iostream>
+#include <stdlib.h>
+
+int main() {
+
+  // Live long and prosper
+
+  srand (time(NULL));
+
+  int computer = rand() % 5 + 1;
+
+  int user = 0;
+
+  std::cout << "=====================\n";
+  std::cout << "Rock, Paper Scissors!\n";
+  std::cout << "=====================\n\n";
+
+  std::cout << "1) Rock ✊\n";
+  std::cout << "2) Paper 🤚\n";
+  std::cout << "3) Scissors ✌️\n";
+  std::cout << "4) Lizard 🤌\n";
+  std::cout << "5) Spock 🖖\n\n";
+
+  std::cout << "Shoot!\n\n";
+
+  std::cin >> user;
+
+  if (computer == 1 and user == 1) {
+    std::cout << "You   vs.  Computer\n";
+    std::cout << "✊            ✊  \n\n";
+    std::cout << "Its a tie!\n";
+  }
+
+  if (computer == 1 and user == 2) {
+    std::cout << "You   vs.  Computer\n";
+    std::cout << "🤚            ✊  \n\n";
+    std::cout << "You win!\n";
+  }
+
+  if (computer == 1 and user ==3) {
+    std::cout << "You   vs.  Computer\n";
+    std::cout << "✌️            ✊  \n\n";
+    std::cout << "Computer wins!\n";
+  }
+
+  if (computer == 1 and user == 4) {
+    std::cout << "You   vs.  Computer\n";
+    std::cout << "🤌            ✊  \n\n";
+    std::cout << "Computer wins!\n";
+  }
+
+  if (computer == 1 and user == 5) {
+    std::cout << "You   vs.  Computer\n";
+    std::cout << "🖖            ✊  \n\n";
+    std::cout << "You win!\n";
+  }
+
+  if (computer == 2 and user == 1) {
+    std::cout << "You   vs.  Computer\n";
+    std::cout << "✊            🤚  \n\n";
+    std::cout << "Computer wins!\n";
+  }
+
+  if (computer == 2 and user == 2) {
+    std::cout << "You   vs.  Computer\n";
+    std::cout << "🤚            🤚  \n\n";
+    std::cout << "Its a tie!";
+  }
+
+  if (computer == 2 and user == 3) {
+    std::cout << "You   vs.  Computer\n";
+    std::cout << "✌️            🤚  \n\n";
+    std::cout << "You win!\n";
+  }
+
+  if (computer == 2 and user == 4) {
+    std::cout << "You   vs.  Computer\n";
+    std::cout << "🤌            🤚  \n\n";
+    std::cout << "You win!\n";
+  }
+
+  if (computer == 2 and user == 5) {
+    std::cout << "You   vs.  Computer\n";
+    std::cout << "🖖            🤚  \n\n";
+    std::cout << "Computer wins!\n";
+  }
+
+  if (computer == 3 and user == 1) {
+    std::cout << "You   vs.  Computer\n";
+    std::cout << "✊            ✌️  \n\n";
+    std::cout << "You win!\n";
+  }
+
+  if (computer == 3 and user == 2) {
+    std::cout << "You   vs.  Computer\n";
+    std::cout << "🤚            ✌️  \n\n";
+    std::cout << "Computer wins!\n";
+  }
+
+  if (computer == 3 and user == 3) {
+    std::cout << "You   vs.  Computer\n";
+    std::cout << "✌️            ✌️  \n\n";
+    std::cout << "Its a tie!\n";
+  }
+
+  if (computer == 3 and user == 4) {
+    std::cout << "You   vs.  Computer\n";
+    std::cout << "🤌            ✌️  \n\n";
+    std::cout << "Computer wins!\n";
+  }
+
+  if (computer == 3 and user == 5) {
+    std::cout << "You   vs.  Computer\n";
+    std::cout << "🖖            ✌️  \n\n";
+    std::cout << "You win!\n";
+  }
+
+  if (computer == 4 and user == 1) {
+    std::cout << "You   vs.  Computer\n";
+    std::cout << "✊            🖖  \n\n";
+    std::cout << "Computer wins!\n";
+  }
+
+  if (computer == 4 and user ==2) {
+    std::cout << "You   vs.  Computer\n";
+    std::cout << "🤚            🤌  \n\n";
+    std::cout << "Computer wins!\n";
+  }
+
+  if (computer == 4 and user == 3) {
+    std::cout << "You   vs.  Computer\n";
+    std::cout << "✌️            🤌  \n\n";
+    std::cout << "You win!\n";
+  }
+
+  if (computer == 4 and user == 4) {
+    std::cout << "You   vs.  Computer\n";
+    std::cout << "🤌            🤌  \n\n";
+    std::cout << "Its a tie!\n";
+  }
+
+  if (computer == 4 and user == 5) {
+    std::cout << "You   vs.  Computer\n";
+    std::cout << "🖖            🤌  \n\n";
+    std::cout << "Computer wins!\n";
+  }
+
+  if (computer == 5 and user == 1) {
+    std::cout << "You   vs.  Computer\n";
+    std::cout << "✊            🖖  \n\n";
+    std::cout << "Computer wins!\n";
+  }
+
+  if (computer == 5 and user == 2) {
+    std::cout << "You   vs.  Computer\n";
+    std::cout << "🤚            🖖  \n\n";
+    std::cout << "You win!\n";
+  }
+
+  if (computer == 5 and user == 3) {
+    std::cout << "You   vs.  Computer\n";
+    std::cout << "✌️            🖖  \n\n";
+    std::cout << "Computer wins!\n";
+  }
+
+  if (computer == 5 and user == 4) {
+    std::cout << "You   vs.  Computer\n";
+    std::cout << "🤌            🖖  \n\n";
+    std::cout << "You win!\n";
+  }
+
+  if (computer == 5 and user ==5) {
+    std::cout << "You   vs.  Computer\n";
+    std::cout << "🖖            🖖  \n\n";
+    std::cout << "Its a tie!\n";
+  }
+
+}
